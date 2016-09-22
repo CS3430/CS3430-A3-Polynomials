@@ -86,7 +86,7 @@ def sorted_rand_poly_dance(num_polys, n, a, b, xval):
 start = datetime.now()
 top_10 = sorted_rand_poly_dance(10000, 5, 1, 10, 2)[:10]
 end = datetime.now()
-print 'start = ', start
-print 'end = ', end
-print 'duration = ', end - start
+print ('start = ', start)
+print ('end = ', end)
+print ('duration = ', end - start)
 display_poly_maps(top_10)
